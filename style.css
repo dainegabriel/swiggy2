@@ -1,0 +1,200 @@
+body{
+     padding: 0;
+     margin: 0;
+     text-decoration: none;
+
+}
+.grid-container{
+     display: grid;
+     grid-template-columns: 50% 50%;
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: 16px;
+     font-weight: bold;
+     margin: 0px;
+}
+.item-1{
+     margin-top: 60px;
+     margin-left:30px ;
+
+}
+.logo{
+     height: 60px;
+     width: auto;
+}
+.banner{
+     height: auto;
+     max-width: 100%;
+}
+.login-button{
+     background-color: white;
+     color: black;
+     border: none;
+     height: 45px;
+     width: 80px;
+     font-size: 15px;
+     font-weight: 300;
+     cursor: pointer;
+     
+}
+.signup-button{
+     background-color: black;
+     color: white;
+     border:none;
+     height: 45px;
+     width: 80px;
+     font-size: 15px;
+     font-weight: 300;
+     cursor: pointer;
+}
+.login-signup-button{
+     position: absolute;
+     top: 72px;
+     left: 450px;
+}
+h1{
+     margin-bottom: 0px;
+     margin-top: 50px;
+}
+h2{
+     color: gray;
+     margin-top: 5px;
+}
+.location-input{
+     width: 70%;
+     height: 25px;
+     color: grey;
+     margin-top: 40px;
+     padding: 10px;
+     font-size: 18px;
+     font-weight: 500;
+
+}
+.location-button{
+     border: none;
+     background-color: transparent;
+     position: absolute;
+     font-family: Arial, Helvetica, sans-serif;
+     top:308px;
+     left: 410px;
+     padding: 15px;
+     cursor: pointer;
+     transition: color 0.50s;
+}
+.location-button:hover{
+     color: grey;
+}
+.find-food{
+     height: 49px;
+     width: 80px;
+     background-color: #FC8019;
+     border: none;
+     color: white;
+     padding: 10px;
+     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+     cursor: pointer;
+}
+h3{
+     color: grey;
+     font-family: Arial, Helvetica, sans-serif;
+     text-transform: uppercase;
+     font-size: 15px;
+}
+.city-list{
+     margin-top: 20px;
+}
+.list{
+     font-size: 14px;
+     font-weight: 600;
+     margin-right: 10px;
+     color: rgb(113, 112, 112);
+     text-decoration: none;
+}
+.list:nth-child(even){
+     color: lightslategrey;
+}
+.info-container{
+     display: grid;
+     grid-template-columns: auto auto auto;
+     background-color: rgb(38, 0, 0);
+     
+}
+
+.middle-img{
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     width: 40%;
+     height: 300px;
+}
+h4{
+     color: white;
+     text-align: center;
+     font-family: Arial;
+     margin-bottom: -6px;
+}
+p{
+     text-align: center;
+     color: white;
+     font-family: Arial;
+     font-size: 13px;
+     padding-bottom: 20px;
+     margin-left: 50px;
+     margin-right: 50px;
+
+}
+.mobile-container{
+     display: grid;
+     grid-template-columns: 40% 60%;
+     
+}
+.mobile-screens{
+     display: grid;
+     grid-template-columns: auto auto;
+
+}
+.mobile-img{
+     height: auto;
+     width: 400px;
+}
+.mobile-title{
+   font-family: Arial, Helvetica, sans-serif;
+   color: grey;
+   font-size: 35px;
+   font-weight: bold;
+   margin-top: 140px;
+   margin-left: 40px;
+   padding-left: 10px;
+   padding-right: 120px;
+}
+.mobile-paragraph{
+   font-family: Arial, Helvetica, sans-serif;
+   color: grey;
+   font-size: 15px;
+   font-weight: 400;
+   margin-left: 40px;
+   padding-left: 10px;
+   padding-right: 120px;
+}
+.last-container{
+     display: grid;
+     grid-template-columns: 25% 25% 25% 25%;
+     background-color: black;
+}
+.last-menu{
+     
+     text-align: center;
+     font-family: Arial, Helvetica, sans-serif;
+}
+.list-1{
+     cursor: pointer;
+     color: rgb(203, 203, 203);
+     transition: color 0.24s;
+}
+.list-1:hover{
+     color: white;
+}
+.playstore-div{
+     margin-top: 40px;
+}
+
+
